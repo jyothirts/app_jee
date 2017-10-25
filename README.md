@@ -2,16 +2,16 @@
 jee application
 
 
-git clone <url>
+git clone <url> \n
 
-cd app_jee
-do changes
-git status
-git add .
-git commit --all -m "commit message"
-git push
-provide username/pass
-
+cd app_jee \n
+do changes \n
+git status \n
+git add . \n
+git commit --all -m "commit message" \n
+git push \n
+provide username/pass \n
+\n
 done
 
 
