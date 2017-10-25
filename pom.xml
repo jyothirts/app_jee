@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>org.java.jyothir.app</groupId> <!-- will identify project uniquely accross all projects, follow the package name rules -->
+	<artifactId>app_jee</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>Root of the application</name>
+	<description>This is the root of the application</description>
+
+	<properties>
+		<jdk-version>1.8</jdk-version>
+		<maven-resource-plugin>2.6</maven-resource-plugin>
+		<maven-compiler-plugin>3.1</maven-compiler-plugin>
+		<sunfire-version>2.17</sunfire-version>
+		<junit.version>4.12</junit.version>
+		<jersey-server-version>1.12</jersey-server-version>
+		<jax-ws-version>2.2.9</jax-ws-version>
+		<javax.annotation.version>1.2</javax.annotation.version>
+		<commons-lang3>3.4</commons-lang3>
+		<spring-context>4.3.2.RELEASE</spring-context>
+		<compiler-encoding>UTF-8</compiler-encoding>
+	</properties>
+
+	<modules>
+	<!--
+		<module>app_rest_layer</module>
+		<module>app_jax_ws_layer</module>
+		<module>app_xml_layer</module>
+		<module>app_persistence_layer</module>
+	-->
+	</modules>
+
+	<dependencyManagement>
+		<dependencies></dependencies>	
+	</dependencyManagement>
+
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-resources-plugin</artifactId>
+				<version>${maven-resource-plugin}</version>
+				<configuration>
+					<encoding>UTF-8</encoding>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>${maven-compiler-plugin}</version>
+				<configuration>
+					<source>${jdk-version}</source>
+					<target>${jdk-version}</target>
+				</configuration>
+			</plugin>
+			<plugin>
+				<!-- <groupId>org.apache.maven.plugins</groupId> -->
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>${sunfire-version}</version>
+			</plugin>
+		</plugins>
+	</build>
+</project>
