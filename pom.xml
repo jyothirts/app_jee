@@ -6,8 +6,10 @@
 
 	<groupId>org.java.jyothir.app</groupId> <!-- will identify project uniquely accross all projects, follow the package name rules -->
 	<artifactId>app_jee</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0-SNAPSHOT</version>
+	<packaging>pom</packaging>
 	<name>Root of the application</name>
+
 	<description>This is the root of the application</description>
 
 	<properties>
@@ -25,6 +27,7 @@
 	</properties>
 
 	<modules>
+		<module>app_dao_layer</module>		
 	<!--
 		<module>app_rest_layer</module>
 		<module>app_jax_ws_layer</module>
