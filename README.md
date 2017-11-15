@@ -15,5 +15,8 @@ provide username/pass \n
 done
 
 
+git pull # take update from repo
+
+
 
 
