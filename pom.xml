@@ -8,7 +8,7 @@
 	<artifactId>app_jee</artifactId>
 	<version>1.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
-	<name>Root of the application</name>
+	<name>app_jee</name>
 
 	<description>This is the root of the application</description>
 
