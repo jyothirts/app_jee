@@ -14,8 +14,8 @@
 	<!--	<groupId></groupId> this is taken from parent -->
 	<artifactId>app_jpa_layer</artifactId> <!-- jar name -->
 	<!--<version></version> this is taken from parent -->
-	<name>JPA with hibernate</name>
-	<description> </description>
+	<name>app_jpa_layer</name>
+	<description> JPA with hibernate</description>
 
 	<dependencies>
 			<dependency>

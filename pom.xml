@@ -28,12 +28,10 @@
 
 	<modules>
 		<module>app_dao_layer</module>		
-	<!--
+		<module>app_jpa_layer</module>	
+		<module>app_persistence_layer</module>	
+		<module>app_soap_layer</module>		
 		<module>app_rest_layer</module>
-		<module>app_jax_ws_layer</module>
-		<module>app_xml_layer</module>
-		<module>app_persistence_layer</module>
-	-->
 	</modules>
 
 	<dependencyManagement>
