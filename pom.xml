@@ -33,6 +33,7 @@
 		<module>app_soap_layer</module>		
 		<module>app_rest_layer</module>
 		<module>app_business_layer</module>
+		<module>app_messaging_layer</module>
 	</modules>
 
 	<dependencyManagement>
