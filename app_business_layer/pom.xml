@@ -14,7 +14,7 @@
 	<!--	<groupId></groupId> this is taken from parent -->
 	<artifactId>app_business_layer</artifactId> <!-- jar name -->
 	<!--<version></version> this is taken from parent -->
-	<name>Business layer</name>
+	<name>app_business_layer</name>
 	<description> </description>
 
 	<dependencies>
